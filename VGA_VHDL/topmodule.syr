@@ -1,0 +1,808 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.98 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.00 secs
+ 
+--> Reading design: topmodule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "topmodule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "topmodule"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : topmodule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/topmodule is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd".
+WARNING:HDLParsers:3607 - Unit work/topmodule/Behavioral is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/counter.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter/Behavioral is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/counter.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/IN_CLOCK_OUT is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/IN_CLOCK_OUT.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd".
+WARNING:HDLParsers:3607 - Unit work/IN_CLOCK_OUT/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/IN_CLOCK_OUT.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA_sync is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/VGA_sync.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA_sync/Behavioral is now defined in a different file.  It was defined in "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/VGA_sync.vhd", and is now defined in "C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd".
+Compiling vhdl file "C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd" in Library work.
+Architecture behavioral of Entity in_clock_out is up to date.
+Compiling vhdl file "C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd" in Library work.
+Entity <vga_sync> compiled.
+Entity <vga_sync> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd" in Library work.
+Entity <topmodule> compiled.
+Entity <topmodule> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <topmodule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <IN_CLOCK_OUT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter> in library <work> (architecture <behavioral>) with generics.
+	n = 21
+
+Analyzing hierarchy for entity <VGA_sync> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <topmodule> in library <work> (Architecture <behavioral>).
+WARNING:Xst:752 - "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd" line 77: Unconnected input port 'RST_IN' of component 'IN_CLOCK_OUT' is tied to default value.
+WARNING:Xst:753 - "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd" line 77: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'IN_CLOCK_OUT'.
+WARNING:Xst:753 - "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd" line 77: Unconnected output port 'CLK0_OUT' of component 'IN_CLOCK_OUT'.
+Entity <topmodule> analyzed. Unit <topmodule> generated.
+
+Analyzing Entity <IN_CLOCK_OUT> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKFX_DIVIDE =  12" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKFX_MULTIPLY =  25" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKIN_PERIOD =  83.3329999999999980" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <IN_CLOCK_OUT>.
+Entity <IN_CLOCK_OUT> analyzed. Unit <IN_CLOCK_OUT> generated.
+
+Analyzing generic Entity <counter> in library <work> (Architecture <behavioral>).
+	n = 21
+Entity <counter> analyzed. Unit <counter> generated.
+
+Analyzing Entity <VGA_sync> in library <work> (Architecture <behavioral>).
+Entity <VGA_sync> analyzed. Unit <VGA_sync> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <counter>.
+    Related source file is "C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd".
+    Found 1-bit xor2 for signal <carry_11$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <carry_11$xor0001> created at line 27.
+    Found 1-bit xor2 for signal <carry_11$xor0002> created at line 27.
+    Found 1-bit xor2 for signal <carry_16$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <carry_16$xor0001> created at line 27.
+    Found 1-bit xor2 for signal <carry_16$xor0002> created at line 27.
+    Found 1-bit xor2 for signal <carry_6$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <carry_6$xor0001> created at line 27.
+    Found 1-bit xor2 for signal <carry_6$xor0002> created at line 27.
+    Found 21-bit register for signal <compteur>.
+    Found 1-bit xor2 for signal <compteur_1$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_10$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_11$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_12$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_13$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_14$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_15$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_16$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_17$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_18$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_19$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_2$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_20$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_20$xor0001> created at line 27.
+    Found 1-bit xor2 for signal <compteur_20$xor0002> created at line 27.
+    Found 1-bit xor2 for signal <compteur_3$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_4$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_5$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_6$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_7$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_8$xor0000> created at line 27.
+    Found 1-bit xor2 for signal <compteur_9$xor0000> created at line 27.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <VGA_sync>.
+    Related source file is "C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd".
+WARNING:Xst:647 - Input <ya1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ya2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ya3> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ya4> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <vsync>.
+    Found 2-bit register for signal <Blue>.
+    Found 3-bit register for signal <Green>.
+    Found 3-bit register for signal <Red>.
+    Found 1-bit register for signal <hsync>.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0000> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0001> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0002> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0003> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0004> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0005> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne1$cmp_gt0006> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0000> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0001> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0002> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0003> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0004> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0005> created at line 46.
+    Found 32-bit comparator less for signal <AltenLigne1$cmp_lt0006> created at line 46.
+    Found 32-bit comparator greater for signal <AltenLigne2$cmp_gt0000> created at line 54.
+    Found 32-bit comparator greater for signal <AltenLigne2$cmp_gt0001> created at line 54.
+    Found 32-bit comparator less for signal <AltenLigne2$cmp_lt0000> created at line 54.
+    Found 32-bit comparator less for signal <AltenLigne2$cmp_lt0001> created at line 54.
+    Found 32-bit comparator greater for signal <AltenLigne3$cmp_gt0000> created at line 62.
+    Found 32-bit comparator greater for signal <AltenLigne3$cmp_gt0001> created at line 62.
+    Found 32-bit comparator less for signal <AltenLigne3$cmp_lt0000> created at line 62.
+    Found 32-bit comparator less for signal <AltenLigne3$cmp_lt0001> created at line 62.
+    Found 32-bit comparator greater for signal <AltenLigne4$cmp_gt0000> created at line 70.
+    Found 32-bit comparator greater for signal <AltenLigne4$cmp_gt0001> created at line 70.
+    Found 32-bit comparator less for signal <AltenLigne4$cmp_lt0000> created at line 70.
+    Found 32-bit comparator less for signal <AltenLigne4$cmp_lt0001> created at line 70.
+    Found 32-bit comparator less for signal <AltenLigne4$cmp_lt0002> created at line 70.
+    Found 32-bit subtractor for signal <AltenLigne5$addsub0000> created at line 78.
+    Found 32-bit adder for signal <AltenLigne5$addsub0001> created at line 78.
+    Found 32-bit comparator greater for signal <AltenLigne5$cmp_gt0000> created at line 78.
+    Found 32-bit comparator greater for signal <AltenLigne5$cmp_gt0001> created at line 78.
+    Found 32-bit comparator greater for signal <AltenLigne5$cmp_gt0002> created at line 78.
+    Found 32-bit comparator greater for signal <AltenLigne5$cmp_gt0003> created at line 78.
+    Found 32-bit comparator less for signal <AltenLigne5$cmp_lt0000> created at line 78.
+    Found 32-bit comparator less for signal <AltenLigne5$cmp_lt0001> created at line 78.
+    Found 32-bit comparator less for signal <AltenLigne5$cmp_lt0002> created at line 78.
+    Found 32-bit comparator less for signal <AltenLigne5$cmp_lt0003> created at line 78.
+    Found 32-bit comparator less for signal <AltenLigne5$cmp_lt0004> created at line 78.
+    Found 32-bit register for signal <colonne>.
+    Found 32-bit adder for signal <colonne$addsub0000> created at line 154.
+    Found 32-bit subtractor for signal <drawBall$addsub0000> created at line 109.
+    Found 32-bit adder for signal <drawBall$addsub0001> created at line 109.
+    Found 32-bit subtractor for signal <drawBall$addsub0002> created at line 109.
+    Found 32-bit adder for signal <drawBall$addsub0003> created at line 109.
+    Found 32-bit comparator greater for signal <drawBall$cmp_gt0000> created at line 109.
+    Found 32-bit comparator greater for signal <drawBall$cmp_gt0001> created at line 109.
+    Found 32-bit comparator less for signal <drawBall$cmp_lt0000> created at line 109.
+    Found 32-bit comparator less for signal <drawBall$cmp_lt0001> created at line 109.
+    Found 32-bit comparator greater for signal <drawBorderH$cmp_gt0000> created at line 96.
+    Found 32-bit comparator greater for signal <drawBorderH$cmp_gt0001> created at line 96.
+    Found 32-bit comparator greater for signal <drawBorderH$cmp_gt0002> created at line 96.
+    Found 32-bit comparator less for signal <drawBorderH$cmp_lt0000> created at line 96.
+    Found 32-bit comparator less for signal <drawBorderH$cmp_lt0001> created at line 96.
+    Found 32-bit comparator less for signal <drawBorderH$cmp_lt0002> created at line 96.
+    Found 32-bit comparator greater for signal <drawBorderV$cmp_gt0000> created at line 90.
+    Found 32-bit comparator less for signal <drawBorderV$cmp_lt0000> created at line 90.
+    Found 32-bit subtractor for signal <drawCur$addsub0000> created at line 102.
+    Found 32-bit adder for signal <drawCur$addsub0001> created at line 102.
+    Found 32-bit comparator greater for signal <drawCur$cmp_gt0000> created at line 102.
+    Found 32-bit comparator greater for signal <drawCur$cmp_gt0001> created at line 102.
+    Found 32-bit comparator less for signal <drawCur$cmp_lt0000> created at line 102.
+    Found 32-bit comparator less for signal <drawCur$cmp_lt0001> created at line 102.
+    Found 32-bit comparator less for signal <Green$cmp_lt0000> created at line 115.
+    Found 32-bit comparator less for signal <Green$cmp_lt0001> created at line 115.
+    Found 32-bit comparator less for signal <hsync$cmp_lt0000> created at line 157.
+    Found 32-bit register for signal <ligne>.
+    Found 32-bit adder for signal <ligne$addsub0000> created at line 149.
+    Found 32-bit 4-to-1 multiplexer for signal <ligne$mux0001>.
+    Found 32-bit comparator less for signal <vsync$cmp_lt0000> created at line 163.
+    Summary:
+	inferred  74 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+	inferred  56 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <VGA_sync> synthesized.
+
+
+Synthesizing Unit <IN_CLOCK_OUT>.
+    Related source file is "C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd".
+Unit <IN_CLOCK_OUT> synthesized.
+
+
+Synthesizing Unit <topmodule>.
+    Related source file is "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd".
+WARNING:Xst:653 - Signal <ya5> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000011100001.
+WARNING:Xst:653 - Signal <ya4> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000011001101.
+WARNING:Xst:653 - Signal <ya3> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000010111001.
+WARNING:Xst:653 - Signal <ya2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000010100101.
+WARNING:Xst:653 - Signal <ya1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000010010001.
+WARNING:Xst:646 - Signal <count<20:18>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <count<16:13>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <count<11:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit updown counter for signal <buttonPushCounter>.
+    Found 1-bit xor2 for signal <buttonPushCounter$xor0000> created at line 86.
+    Found 1-bit register for signal <lastButtonState>.
+    Found 32-bit register for signal <x>.
+    Found 32-bit comparator greater for signal <x$cmp_gt0000> created at line 98.
+    Found 32-bit comparator less for signal <x$cmp_lt0000> created at line 105.
+    Found 32-bit 4-to-1 multiplexer for signal <x$mux0002>.
+    Found 32-bit addsub for signal <x$share0000>.
+    Found 32-bit down counter for signal <yb>.
+    Found 32-bit comparator lessequal for signal <yb$cmp_le0000> created at line 128.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <topmodule> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 32-bit adder                                          : 6
+ 32-bit addsub                                         : 1
+ 32-bit subtractor                                     : 4
+# Counters                                             : 2
+ 32-bit down counter                                   : 1
+ 32-bit updown counter                                 : 1
+# Registers                                            : 30
+ 1-bit register                                        : 24
+ 2-bit register                                        : 1
+ 3-bit register                                        : 2
+ 32-bit register                                       : 3
+# Comparators                                          : 59
+ 32-bit comparator greater                             : 26
+ 32-bit comparator less                                : 32
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <Red_1> in Unit <U3> is equivalent to the following FF/Latch, which will be removed : <Red_2> 
+INFO:Xst:2261 - The FF/Latch <Green_0> in Unit <U3> is equivalent to the following 2 FFs/Latches, which will be removed : <Green_1> <Green_2> 
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 32-bit adder                                          : 6
+ 32-bit addsub                                         : 1
+ 32-bit subtractor                                     : 4
+# Counters                                             : 2
+ 32-bit down counter                                   : 1
+ 32-bit updown counter                                 : 1
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+# Comparators                                          : 59
+ 32-bit comparator greater                             : 26
+ 32-bit comparator less                                : 32
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <Red_1> in Unit <VGA_sync> is equivalent to the following FF/Latch, which will be removed : <Red_2> 
+INFO:Xst:2261 - The FF/Latch <Green_0> in Unit <VGA_sync> is equivalent to the following 2 FFs/Latches, which will be removed : <Green_1> <Green_2> 
+
+Optimizing unit <topmodule> ...
+
+Optimizing unit <counter> ...
+
+Optimizing unit <VGA_sync> ...
+WARNING:Xst:2677 - Node <U2/compteur_19> of sequential type is unconnected in block <topmodule>.
+WARNING:Xst:2677 - Node <U2/compteur_18> of sequential type is unconnected in block <topmodule>.
+WARNING:Xst:2677 - Node <U2/compteur_20> of sequential type is unconnected in block <topmodule>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block topmodule, actual ratio is 101.
+Optimizing block <topmodule> to meet ratio 100 (+ 5) of 704 slices :
+Area constraint is met for block <topmodule>, final ratio is 97.
+FlipFlop U2/compteur_0 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 187
+ Flip-Flops                                            : 187
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : topmodule.ngr
+Top Level Output File Name         : topmodule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 2796
+#      GND                         : 1
+#      INV                         : 245
+#      LUT1                        : 225
+#      LUT2                        : 372
+#      LUT2_L                      : 1
+#      LUT3                        : 77
+#      LUT3_L                      : 5
+#      LUT4                        : 378
+#      LUT4_D                      : 10
+#      LUT4_L                      : 1
+#      MUXCY                       : 1134
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 344
+# FlipFlops/Latches                : 187
+#      FD                          : 48
+#      FDE                         : 93
+#      FDR                         : 13
+#      FDRE                        : 27
+#      FDRS                        : 1
+#      FDSE                        : 5
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      IBUFG                       : 1
+#      OBUF                        : 10
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-4 
+
+ Number of Slices:                      682  out of    704    96%  
+ Number of Slice Flip Flops:            187  out of   1408    13%  
+ Number of 4 input LUTs:               1314  out of   1408    93%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    108    12%  
+ Number of GCLKs:                         5  out of     24    20%  
+ Number of DCMs:                          1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+U2/compteur_171                    | BUFG                   | 65    |
+U2/compteur_121                    | BUFG                   | 32    |
+CLOCK_12                           | U1/DCM_SP_INST:CLKFX   | 19    |
+U2/compteur_02                     | BUFG                   | 71    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 13.541ns (Maximum Frequency: 73.850MHz)
+   Minimum input arrival time before clock: 7.623ns
+   Maximum output required time after clock: 5.642ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U2/compteur_171'
+  Clock period: 6.829ns (frequency: 146.434MHz)
+  Total number of paths / destination ports: 4128 / 96
+-------------------------------------------------------------------------
+Delay:               6.829ns (Levels of Logic = 34)
+  Source:            x_0 (FF)
+  Destination:       x_31 (FF)
+  Source Clock:      U2/compteur_171 rising
+  Destination Clock: U2/compteur_171 rising
+
+  Data Path: x_0 to x_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.591   0.812  x_0 (x_0)
+     LUT2:I0->O            1   0.648   0.000  Maddsub_x_share0000_lut<0> (Maddsub_x_share0000_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Maddsub_x_share0000_cy<0> (Maddsub_x_share0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<1> (Maddsub_x_share0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<2> (Maddsub_x_share0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<3> (Maddsub_x_share0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<4> (Maddsub_x_share0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<5> (Maddsub_x_share0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<6> (Maddsub_x_share0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<7> (Maddsub_x_share0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<8> (Maddsub_x_share0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<9> (Maddsub_x_share0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<10> (Maddsub_x_share0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<11> (Maddsub_x_share0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<12> (Maddsub_x_share0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<13> (Maddsub_x_share0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<14> (Maddsub_x_share0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<15> (Maddsub_x_share0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<16> (Maddsub_x_share0000_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<17> (Maddsub_x_share0000_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<18> (Maddsub_x_share0000_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<19> (Maddsub_x_share0000_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<20> (Maddsub_x_share0000_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<21> (Maddsub_x_share0000_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<22> (Maddsub_x_share0000_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<23> (Maddsub_x_share0000_cy<23>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<24> (Maddsub_x_share0000_cy<24>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<25> (Maddsub_x_share0000_cy<25>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<26> (Maddsub_x_share0000_cy<26>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<27> (Maddsub_x_share0000_cy<27>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<28> (Maddsub_x_share0000_cy<28>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<29> (Maddsub_x_share0000_cy<29>)
+     MUXCY:CI->O           0   0.065   0.000  Maddsub_x_share0000_cy<30> (Maddsub_x_share0000_cy<30>)
+     XORCY:CI->O           1   0.844   0.452  Maddsub_x_share0000_xor<31> (x_share0000<31>)
+     LUT4:I2->O            1   0.648   0.000  Mmux_x_mux000211 (x_mux0002<0>)
+     FDE:D                     0.252          x_31
+    ----------------------------------------
+    Total                      6.829ns (5.565ns logic, 1.264ns route)
+                                       (81.5% logic, 18.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U2/compteur_121'
+  Clock period: 5.967ns (frequency: 167.582MHz)
+  Total number of paths / destination ports: 1488 / 64
+-------------------------------------------------------------------------
+Delay:               5.967ns (Levels of Logic = 11)
+  Source:            yb_4 (FF)
+  Destination:       yb_2 (FF)
+  Source Clock:      U2/compteur_121 rising
+  Destination Clock: U2/compteur_121 rising
+
+  Data Path: yb_4 to yb_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.591   0.730  yb_4 (yb_4)
+     LUT2:I0->O            1   0.648   0.000  Mcompar_yb_cmp_le0000_lut<1> (Mcompar_yb_cmp_le0000_lut<1>)
+     MUXCY:S->O            1   0.632   0.000  Mcompar_yb_cmp_le0000_cy<1> (Mcompar_yb_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<2> (Mcompar_yb_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<3> (Mcompar_yb_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<4> (Mcompar_yb_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<5> (Mcompar_yb_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<6> (Mcompar_yb_cmp_le0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<7> (Mcompar_yb_cmp_le0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_yb_cmp_le0000_cy<8> (Mcompar_yb_cmp_le0000_cy<8>)
+     MUXCY:CI->O           1   0.269   0.420  Mcompar_yb_cmp_le0000_cy<9> (yb_cmp_le0000)
+     INV:I->O             32   0.648   1.262  yb_not00031_INV_0 (yb_not0003)
+     FDRE:CE                   0.312          yb_2
+    ----------------------------------------
+    Total                      5.967ns (3.555ns logic, 2.412ns route)
+                                       (59.6% logic, 40.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_12'
+  Clock period: 13.460ns (frequency: 74.292MHz)
+  Total number of paths / destination ports: 176 / 19
+-------------------------------------------------------------------------
+Delay:               6.461ns (Levels of Logic = 5)
+  Source:            U2/compteur_1 (FF)
+  Destination:       U2/compteur_17 (FF)
+  Source Clock:      CLOCK_12 rising 2.1X
+  Destination Clock: CLOCK_12 rising 2.1X
+
+  Data Path: U2/compteur_1 to U2/compteur_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.591   0.672  U2/compteur_1 (U2/compteur_1)
+     LUT4_D:I3->LO         1   0.648   0.132  U2/Mxor_compteur_5_xor0000_Result11 (N39)
+     LUT3:I2->O            4   0.648   0.590  U2/Mxor_compteur_6_xor0000_Result11 (U2/N8)
+     LUT4_D:I3->O          3   0.648   0.534  U2/carry_11_and00001 (U2/carry_11_and0000)
+     LUT4_D:I3->O          2   0.648   0.450  U2/Mxor_compteur_15_xor0000_Result11 (U2/N10)
+     LUT4:I3->O            1   0.648   0.000  U2/Mxor_compteur_17_xor0000_Result1 (U2/compteur_17_xor0000)
+     FD:D                      0.252          U2/compteur_17
+    ----------------------------------------
+    Total                      6.461ns (4.083ns logic, 2.378ns route)
+                                       (63.2% logic, 36.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U2/compteur_02'
+  Clock period: 13.541ns (frequency: 73.850MHz)
+  Total number of paths / destination ports: 25354 / 110
+-------------------------------------------------------------------------
+Delay:               13.541ns (Levels of Logic = 38)
+  Source:            U3/ligne_1 (FF)
+  Destination:       U3/vsync (FF)
+  Source Clock:      U2/compteur_02 rising
+  Destination Clock: U2/compteur_02 rising
+
+  Data Path: U3/ligne_1 to U3/vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.591   1.143  U3/ligne_1 (U3/ligne_1)
+     LUT1:I0->O            1   0.648   0.000  U3/Madd_ligne_addsub0000_cy<1>_rt (U3/Madd_ligne_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.632   0.000  U3/Madd_ligne_addsub0000_cy<1> (U3/Madd_ligne_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<2> (U3/Madd_ligne_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<3> (U3/Madd_ligne_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<4> (U3/Madd_ligne_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<5> (U3/Madd_ligne_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<6> (U3/Madd_ligne_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<7> (U3/Madd_ligne_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<8> (U3/Madd_ligne_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<9> (U3/Madd_ligne_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<10> (U3/Madd_ligne_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<11> (U3/Madd_ligne_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<12> (U3/Madd_ligne_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<13> (U3/Madd_ligne_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<14> (U3/Madd_ligne_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<15> (U3/Madd_ligne_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<16> (U3/Madd_ligne_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<17> (U3/Madd_ligne_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<18> (U3/Madd_ligne_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<19> (U3/Madd_ligne_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<20> (U3/Madd_ligne_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<21> (U3/Madd_ligne_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<22> (U3/Madd_ligne_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Madd_ligne_addsub0000_cy<23> (U3/Madd_ligne_addsub0000_cy<23>)
+     XORCY:CI->O           3   0.844   0.534  U3/Madd_ligne_addsub0000_xor<24> (U3/ligne_addsub0000<24>)
+     LUT4:I3->O            1   0.648   0.500  U3/Mmux_ligne_mux00011105 (U3/Mmux_ligne_mux00011105)
+     LUT4:I1->O            2   0.643   0.450  U3/Mmux_ligne_mux000111027 (U3/Mmux_ligne_mux000111027)
+     LUT4:I3->O            3   0.648   0.534  U3/Mmux_ligne_mux0001110138 (U3/N31)
+     LUT4:I3->O            1   0.648   0.000  U3/Mcompar_vsync_cmp_lt0000_lut<2> (U3/Mcompar_vsync_cmp_lt0000_lut<2>)
+     MUXCY:S->O            1   0.632   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<2> (U3/Mcompar_vsync_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<3> (U3/Mcompar_vsync_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<4> (U3/Mcompar_vsync_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<5> (U3/Mcompar_vsync_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<6> (U3/Mcompar_vsync_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<7> (U3/Mcompar_vsync_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  U3/Mcompar_vsync_cmp_lt0000_cy<8> (U3/Mcompar_vsync_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.269   0.420  U3/Mcompar_vsync_cmp_lt0000_cy<9> (U3/Mcompar_vsync_cmp_lt0000_cy<9>)
+     INV:I->O              1   0.648   0.420  U3/Mcompar_vsync_cmp_lt0000_cy<9>_inv_INV_0 (U3/vsync_cmp_lt0000)
+     FDR:R                     0.869          U3/vsync
+    ----------------------------------------
+    Total                     13.541ns (9.540ns logic, 4.001ns route)
+                                       (70.5% logic, 29.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'U2/compteur_171'
+  Total number of paths / destination ports: 1249 / 129
+-------------------------------------------------------------------------
+Offset:              7.623ns (Levels of Logic = 35)
+  Source:            KEY<2> (PAD)
+  Destination:       x_31 (FF)
+  Destination Clock: U2/compteur_171 rising
+
+  Data Path: KEY<2> to x_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            66   0.849   1.353  KEY_2_IBUF (KEY<2>1)
+     LUT2:I1->O            1   0.643   0.000  Maddsub_x_share0000_lut<0> (Maddsub_x_share0000_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Maddsub_x_share0000_cy<0> (Maddsub_x_share0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<1> (Maddsub_x_share0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<2> (Maddsub_x_share0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<3> (Maddsub_x_share0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<4> (Maddsub_x_share0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<5> (Maddsub_x_share0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<6> (Maddsub_x_share0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<7> (Maddsub_x_share0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<8> (Maddsub_x_share0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<9> (Maddsub_x_share0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<10> (Maddsub_x_share0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<11> (Maddsub_x_share0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<12> (Maddsub_x_share0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<13> (Maddsub_x_share0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<14> (Maddsub_x_share0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<15> (Maddsub_x_share0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<16> (Maddsub_x_share0000_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<17> (Maddsub_x_share0000_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<18> (Maddsub_x_share0000_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<19> (Maddsub_x_share0000_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<20> (Maddsub_x_share0000_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<21> (Maddsub_x_share0000_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<22> (Maddsub_x_share0000_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<23> (Maddsub_x_share0000_cy<23>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<24> (Maddsub_x_share0000_cy<24>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<25> (Maddsub_x_share0000_cy<25>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<26> (Maddsub_x_share0000_cy<26>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<27> (Maddsub_x_share0000_cy<27>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<28> (Maddsub_x_share0000_cy<28>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_x_share0000_cy<29> (Maddsub_x_share0000_cy<29>)
+     MUXCY:CI->O           0   0.065   0.000  Maddsub_x_share0000_cy<30> (Maddsub_x_share0000_cy<30>)
+     XORCY:CI->O           1   0.844   0.452  Maddsub_x_share0000_xor<31> (x_share0000<31>)
+     LUT4:I2->O            1   0.648   0.000  Mmux_x_mux000211 (x_mux0002<0>)
+     FDE:D                     0.252          x_31
+    ----------------------------------------
+    Total                      7.623ns (5.818ns logic, 1.805ns route)
+                                       (76.3% logic, 23.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'U2/compteur_02'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              5.642ns (Levels of Logic = 1)
+  Source:            U3/Green_0 (FF)
+  Destination:       Green<2> (PAD)
+  Source Clock:      U2/compteur_02 rising
+
+  Data Path: U3/Green_0 to Green<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.531  U3/Green_0 (U3/Green_0)
+     OBUF:I->O                 4.520          Green_2_OBUF (Green<2>)
+    ----------------------------------------
+    Total                      5.642ns (5.111ns logic, 0.531ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 31.00 secs
+Total CPU time to Xst completion: 30.14 secs
+ 
+--> 
+
+Total memory usage is 279480 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

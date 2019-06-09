@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Utilisateur\Desktop\VGA_VHDL\topmodule.ncd
+OUTFILE=C:\Users\Utilisateur\Desktop\VGA_VHDL\topmodule.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=C:\Users\Utilisateur\Desktop\VGA_VHDL
+LICENSE=WebPack
+USER_INFO=__0_0_0

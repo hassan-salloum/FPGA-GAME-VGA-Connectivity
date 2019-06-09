@@ -1,0 +1,4 @@
+vhdl work "VGA_sync.vhd"
+vhdl work "IN_CLOCK_OUT.vhd"
+vhdl work "counter.vhd"
+vhdl work "topmodule.vhd"

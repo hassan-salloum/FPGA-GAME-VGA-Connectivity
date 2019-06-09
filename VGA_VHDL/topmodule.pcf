@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 18 01:38:43 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "Blue<1>" LOCATE = SITE "P96" LEVEL 1;
+COMP "Blue<2>" LOCATE = SITE "P98" LEVEL 1;
+COMP "Green<0>" LOCATE = SITE "P99" LEVEL 1;
+COMP "Green<1>" LOCATE = SITE "P101" LEVEL 1;
+COMP "Green<2>" LOCATE = SITE "P102" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P93" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P92" LEVEL 1;
+COMP "KEY<0>" LOCATE = SITE "P78" LEVEL 1;
+COMP "KEY<1>" LOCATE = SITE "P79" LEVEL 1;
+COMP "KEY<2>" LOCATE = SITE "P80" LEVEL 1;
+COMP "Red<0>" LOCATE = SITE "P103" LEVEL 1;
+COMP "Red<1>" LOCATE = SITE "P104" LEVEL 1;
+COMP "Red<2>" LOCATE = SITE "P105" LEVEL 1;
+COMP "CLOCK_12" LOCATE = SITE "P129" LEVEL 1;
+NET "U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+

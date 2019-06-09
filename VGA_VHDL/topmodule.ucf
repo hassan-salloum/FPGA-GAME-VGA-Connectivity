@@ -1,0 +1,33 @@
+#*****************************************#
+#   UCF for ElbertV2 Development Board    #
+#*****************************************#
+CONFIG VCCAUX = "3.3" ;
+ 
+ # Clock 12 MHz
+  NET "CLOCK_12" LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 12MHz;
+
+############
+# 	 VGA    #
+############
+
+    NET "hsync"              LOC = P93  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "vsync"              LOC = P92  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+    NET "Blue[2]"            LOC = P98  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "Blue[1]"            LOC = P96  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+    NET "Green[2]"           LOC = P102  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "Green[1]"           LOC = P101  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "Green[0]"           LOC = P99   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+    NET "Red[2]"             LOC = P105  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "Red[1]"             LOC = P104  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "Red[0]"             LOC = P103  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+	 
+############
+# 	 Left and Right    #
+############	 
+    NET "KEY[2]"             LOC = P80  | PULLUP | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "KEY[1]"             LOC = P79  | PULLUP | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "KEY[0]"             LOC = P78  | PULLUP | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;	 
+	

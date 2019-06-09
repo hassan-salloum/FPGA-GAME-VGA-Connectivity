@@ -1,0 +1,8 @@
+EN vga_sync NULL C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd sub00/vhpl04 1558136258
+AR counter behavioral C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd sub00/vhpl03 1558136257
+AR vga_sync behavioral C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd sub00/vhpl05 1558136259
+EN counter NULL C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd sub00/vhpl02 1558136256
+AR topmodule behavioral C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd sub00/vhpl07 1558136261
+EN topmodule NULL C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd sub00/vhpl06 1558136260
+EN in_clock_out NULL C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd sub00/vhpl00 1558136254
+AR in_clock_out behavioral C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd sub00/vhpl01 1558136255

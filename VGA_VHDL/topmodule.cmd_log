@@ -1,0 +1,370 @@
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Embedded System Prog/VHDL/VGA/topmodule.xst" -ofn "C:/Embedded System Prog/VHDL/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 "topmodule.ngc" topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 
+xst -intstyle ise -ifn "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.xst" -ofn "C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc topmodule.ucf -p xc3s50a-tq144-4 topmodule.ngc topmodule.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o topmodule_map.ncd topmodule.ngd topmodule.pcf 
+par -w -intstyle ise -ol high -t 1 topmodule_map.ncd topmodule.ncd topmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf -ucf topmodule.ucf 
+bitgen -intstyle ise -f topmodule.ut topmodule.ncd 

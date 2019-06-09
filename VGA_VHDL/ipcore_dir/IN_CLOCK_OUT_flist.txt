@@ -1,0 +1,2 @@
+# Output products list for <IN_CLOCK_OUT>
+IN_CLOCK_OUT_flist.txt

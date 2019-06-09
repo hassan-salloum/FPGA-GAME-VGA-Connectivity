@@ -1,0 +1,601 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml topmodule.twx topmodule.ncd -o topmodule.twr topmodule.pcf
+-ucf topmodule.ucf
+
+Design file:              topmodule.ncd
+Physical constraint file: topmodule.pcf
+Device,package,speed:     xc3s50a,tq144,-4 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  20.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 63.333ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 10.000ns (Tdcmpw_CLKIN_10_25)
+  Physical resource: U1/DCM_SP_INST/CLKIN
+  Logical resource: U1/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y0.CLKIN
+  Clock network: U1/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 63.333ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 83.333ns
+  High pulse: 41.666ns
+  High pulse limit: 10.000ns (Tdcmpw_CLKIN_10_25)
+  Physical resource: U1/DCM_SP_INST/CLKIN
+  Logical resource: U1/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y0.CLKIN
+  Clock network: U1/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 79.334ns (period - min period limit)
+  Period: 83.333ns
+  Min period limit: 3.999ns (250.063MHz) (Tdcmpc)
+  Physical resource: U1/DCM_SP_INST/CLKIN
+  Logical resource: U1/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y0.CLKIN
+  Clock network: U1/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "U1/CLKFX_BUF" derived from  NET 
+"U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;  divided by 2.08 to 40.000 nS 
+and duty cycle corrected to HIGH 19.999 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 176 paths analyzed, 65 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.284ns.
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_16 (SLICE_X17Y30.G4), 14 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     33.716ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_3 (FF)
+  Destination:          U2/compteur_16 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.225ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_3 to U2/compteur_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y24.YQ      Tcko                  0.676   U2/compteur<3>
+                                                       U2/compteur_3
+    SLICE_X22Y26.G1      net (fanout=4)        0.575   U2/compteur<3>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.G4      net (fanout=3)        0.130   U2/N10
+    SLICE_X17Y30.CLK     Tgck                  0.727   U2/compteur_171
+                                                       U2/Mxor_compteur_16_xor0000_Result2
+                                                       U2/compteur_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.225ns (4.157ns logic, 2.068ns route)
+                                                       (66.8% logic, 33.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.786ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_1 (FF)
+  Destination:          U2/compteur_16 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.155ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_1 to U2/compteur_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y24.YQ      Tcko                  0.580   U2/compteur<2>
+                                                       U2/compteur_1
+    SLICE_X22Y26.G4      net (fanout=6)        0.601   U2/compteur<1>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.G4      net (fanout=3)        0.130   U2/N10
+    SLICE_X17Y30.CLK     Tgck                  0.727   U2/compteur_171
+                                                       U2/Mxor_compteur_16_xor0000_Result2
+                                                       U2/compteur_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.155ns (4.061ns logic, 2.094ns route)
+                                                       (66.0% logic, 34.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.880ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_0_1 (FF)
+  Destination:          U2/compteur_16 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.055ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.065ns (0.236 - 0.301)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_0_1 to U2/compteur_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y28.YQ      Tcko                  0.676   U2/compteur_0_1
+                                                       U2/compteur_0_1
+    SLICE_X22Y26.G2      net (fanout=1)        0.405   U2/compteur_0_1
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.G4      net (fanout=3)        0.130   U2/N10
+    SLICE_X17Y30.CLK     Tgck                  0.727   U2/compteur_171
+                                                       U2/Mxor_compteur_16_xor0000_Result2
+                                                       U2/compteur_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.055ns (4.157ns logic, 1.898ns route)
+                                                       (68.7% logic, 31.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_15 (SLICE_X17Y31.F4), 14 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     33.723ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_3 (FF)
+  Destination:          U2/compteur_15 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.218ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_3 to U2/compteur_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y24.YQ      Tcko                  0.676   U2/compteur<3>
+                                                       U2/compteur_3
+    SLICE_X22Y26.G1      net (fanout=4)        0.575   U2/compteur<3>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y31.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y31.CLK     Tfck                  0.722   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result2
+                                                       U2/compteur_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.218ns (4.152ns logic, 2.066ns route)
+                                                       (66.8% logic, 33.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.793ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_1 (FF)
+  Destination:          U2/compteur_15 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.148ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_1 to U2/compteur_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y24.YQ      Tcko                  0.580   U2/compteur<2>
+                                                       U2/compteur_1
+    SLICE_X22Y26.G4      net (fanout=6)        0.601   U2/compteur<1>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y31.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y31.CLK     Tfck                  0.722   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result2
+                                                       U2/compteur_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.148ns (4.056ns logic, 2.092ns route)
+                                                       (66.0% logic, 34.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.887ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_0_1 (FF)
+  Destination:          U2/compteur_15 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.048ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.065ns (0.236 - 0.301)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_0_1 to U2/compteur_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y28.YQ      Tcko                  0.676   U2/compteur_0_1
+                                                       U2/compteur_0_1
+    SLICE_X22Y26.G2      net (fanout=1)        0.405   U2/compteur_0_1
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y31.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y31.CLK     Tfck                  0.722   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result2
+                                                       U2/compteur_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.048ns (4.152ns logic, 1.896ns route)
+                                                       (68.7% logic, 31.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_17 (SLICE_X17Y30.F4), 14 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     33.723ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_3 (FF)
+  Destination:          U2/compteur_17 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.218ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_3 to U2/compteur_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y24.YQ      Tcko                  0.676   U2/compteur<3>
+                                                       U2/compteur_3
+    SLICE_X22Y26.G1      net (fanout=4)        0.575   U2/compteur<3>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y30.CLK     Tfck                  0.722   U2/compteur_171
+                                                       U2/Mxor_compteur_17_xor0000_Result1
+                                                       U2/compteur_17
+    -------------------------------------------------  ---------------------------
+    Total                                      6.218ns (4.152ns logic, 2.066ns route)
+                                                       (66.8% logic, 33.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.793ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_1 (FF)
+  Destination:          U2/compteur_17 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.148ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.059ns (0.236 - 0.295)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_1 to U2/compteur_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y24.YQ      Tcko                  0.580   U2/compteur<2>
+                                                       U2/compteur_1
+    SLICE_X22Y26.G4      net (fanout=6)        0.601   U2/compteur<1>
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y30.CLK     Tfck                  0.722   U2/compteur_171
+                                                       U2/Mxor_compteur_17_xor0000_Result1
+                                                       U2/compteur_17
+    -------------------------------------------------  ---------------------------
+    Total                                      6.148ns (4.056ns logic, 2.092ns route)
+                                                       (66.0% logic, 34.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     33.887ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               U2/compteur_0_1 (FF)
+  Destination:          U2/compteur_17 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.048ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.065ns (0.236 - 0.301)
+  Source Clock:         CLOCK_25 rising at 0.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: U2/compteur_0_1 to U2/compteur_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y28.YQ      Tcko                  0.676   U2/compteur_0_1
+                                                       U2/compteur_0_1
+    SLICE_X22Y26.G2      net (fanout=1)        0.405   U2/compteur_0_1
+    SLICE_X22Y26.Y       Tilo                  0.707   U2/N8
+                                                       U2/Mxor_compteur_5_xor0000_Result11
+    SLICE_X22Y26.F4      net (fanout=3)        0.094   U2/N111
+    SLICE_X22Y26.X       Tilo                  0.692   U2/N8
+                                                       U2/Mxor_compteur_6_xor0000_Result11
+    SLICE_X20Y28.G4      net (fanout=4)        0.533   U2/N8
+    SLICE_X20Y28.Y       Tilo                  0.707   U2/compteur_121
+                                                       U2/carry_11_and00001
+    SLICE_X17Y31.G2      net (fanout=4)        0.736   U2/carry_11_and0000
+    SLICE_X17Y31.Y       Tilo                  0.648   U2/compteur<15>
+                                                       U2/Mxor_compteur_15_xor0000_Result11
+    SLICE_X17Y30.F4      net (fanout=3)        0.128   U2/N10
+    SLICE_X17Y30.CLK     Tfck                  0.722   U2/compteur_171
+                                                       U2/Mxor_compteur_17_xor0000_Result1
+                                                       U2/compteur_17
+    -------------------------------------------------  ---------------------------
+    Total                                      6.048ns (4.152ns logic, 1.896ns route)
+                                                       (68.7% logic, 31.3% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "U1/CLKFX_BUF" derived from
+ NET "U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+ divided by 2.08 to 40.000 nS and duty cycle corrected to HIGH 19.999 nS 
+
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_10 (SLICE_X21Y31.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.286ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               U2/compteur_10 (FF)
+  Destination:          U2/compteur_10 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.286ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLOCK_25 rising at 40.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: U2/compteur_10 to U2/compteur_10
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y31.YQ      Tcko                  0.464   U2/compteur<10>
+                                                       U2/compteur_10
+    SLICE_X21Y31.G4      net (fanout=3)        0.352   U2/compteur<10>
+    SLICE_X21Y31.CLK     Tckg        (-Th)    -0.470   U2/compteur<10>
+                                                       U2/Mxor_compteur_10_xor0000_Result1
+                                                       U2/compteur_10
+    -------------------------------------------------  ---------------------------
+    Total                                      1.286ns (0.934ns logic, 0.352ns route)
+                                                       (72.6% logic, 27.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_2 (SLICE_X23Y24.F4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.305ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               U2/compteur_2 (FF)
+  Destination:          U2/compteur_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.305ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLOCK_25 rising at 40.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: U2/compteur_2 to U2/compteur_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y24.XQ      Tcko                  0.473   U2/compteur<2>
+                                                       U2/compteur_2
+    SLICE_X23Y24.F4      net (fanout=5)        0.366   U2/compteur<2>
+    SLICE_X23Y24.CLK     Tckf        (-Th)    -0.466   U2/compteur<2>
+                                                       U2/Mxor_compteur_2_xor0000_Result1
+                                                       U2/compteur_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.305ns (0.939ns logic, 0.366ns route)
+                                                       (72.0% logic, 28.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point U2/compteur_9 (SLICE_X20Y29.F4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.329ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               U2/compteur_9 (FF)
+  Destination:          U2/compteur_9 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.329ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLOCK_25 rising at 40.000ns
+  Destination Clock:    CLOCK_25 rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: U2/compteur_9 to U2/compteur_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X20Y29.XQ      Tcko                  0.505   U2/compteur<9>
+                                                       U2/compteur_9
+    SLICE_X20Y29.F4      net (fanout=4)        0.319   U2/compteur<9>
+    SLICE_X20Y29.CLK     Tckf        (-Th)    -0.505   U2/compteur<9>
+                                                       U2/Mxor_compteur_9_xor0000_Result2
+                                                       U2/compteur_9
+    -------------------------------------------------  ---------------------------
+    Total                                      1.329ns (1.010ns logic, 0.319ns route)
+                                                       (76.0% logic, 24.0% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "U1/CLKFX_BUF" derived from
+ NET "U1/CLKIN_IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+ divided by 2.08 to 40.000 nS and duty cycle corrected to HIGH 19.999 nS 
+
+--------------------------------------------------------------------------------
+Slack: 36.998ns (period - min period limit)
+  Period: 40.000ns
+  Min period limit: 3.002ns (333.111MHz) ()
+  Physical resource: U1/DCM_SP_INST/CLKFX
+  Logical resource: U1/DCM_SP_INST/CLKFX
+  Location pin: DCM_X0Y0.CLKFX
+  Clock network: U1/CLKFX_BUF
+--------------------------------------------------------------------------------
+Slack: 38.398ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 40.000ns
+  High pulse: 19.999ns
+  High pulse limit: 0.801ns (Tch)
+  Physical resource: U2/compteur<4>/CLK
+  Logical resource: U2/compteur_4/CK
+  Location pin: SLICE_X22Y27.CLK
+  Clock network: CLOCK_25
+--------------------------------------------------------------------------------
+Slack: 38.398ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 40.000ns
+  High pulse: 19.999ns
+  High pulse limit: 0.801ns (Tch)
+  Physical resource: U2/compteur_121/CLK
+  Logical resource: U2/compteur_12/CK
+  Location pin: SLICE_X20Y28.CLK
+  Clock network: CLOCK_25
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for U1/CLKIN_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|U1/CLKIN_IBUFG                 |     83.333ns|     20.000ns|     13.092ns|            0|            0|            0|          176|
+| U1/CLKFX_BUF                  |     40.000ns|      6.284ns|          N/A|            0|            0|          176|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLOCK_12
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_12       |    6.284|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 176 paths, 0 nets, and 109 connections
+
+Design statistics:
+   Minimum period:  20.000ns{1}   (Maximum frequency:  50.000MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Sat May 18 01:39:30 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 143 MB
+
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/topmodule</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/topmodule/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/topmodule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/counter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/counter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/counter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/IN_CLOCK_OUT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/IN_CLOCK_OUT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/IN_CLOCK_OUT/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/IN_CLOCK_OUT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/IN_CLOCK_OUT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGA_sync</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/VGA_sync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGA_sync/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Utilisateur/Desktop/VGA_1_Shoot/VGA_sync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Utilisateur/Desktop/VGA_VHDL/VGA_sync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">RST_IN</arg>&apos; of component &apos;<arg fmt="%s" index="4">IN_CLOCK_OUT</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">IN_CLOCK_OUT</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Utilisateur/Desktop/VGA_VHDL/topmodule.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK0_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">IN_CLOCK_OUT</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ya1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ya2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ya3</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ya4</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ya5</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000011100001</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ya4</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000011001101</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ya3</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000010111001</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ya2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000010100101</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ya1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000010010001</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">count&lt;20:18&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">count&lt;16:13&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">count&lt;11:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Red_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">U3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Red_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Green_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">U3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Green_1&gt; &lt;Green_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Red_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA_sync</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Red_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Green_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA_sync</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Green_1&gt; &lt;Green_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U2/compteur_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">topmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U2/compteur_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">topmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U2/compteur_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">topmodule</arg>&gt;.
+</msg>
+
+</messages>
+
