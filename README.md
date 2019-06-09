@@ -21,12 +21,13 @@ https://productdata.numato.com/assets/downloads/fpga/elbertv2/ElbertV2Config.exe
 Now we are ready but before we start, I recommended you to get more information about the Elbert V2 board and about the ISE design suite to initialize your first project directory. 
 https://docs.numato.com/doc/elbert-v2-spartan-3a-fpga-development-board/
 
+
 # Understand the VGA:
 
-![First image it will show you how VGA controller work.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/HVSYNC.png)
+![First image it will show you how VGA controller work.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/VGACONTROLLER.png)
 
 ![Second image it will show you how Horizontal and vertical syncronization work, and how i can use it to draw an image in the 
-VGA_sync module.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/VGACONTROLLER.png)
+VGA_sync module.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/HVSYNC.png)
 
 
 # VGA VHDL code:
@@ -35,7 +36,7 @@ Code have for initial module:
 
         Topmodule: responsible of the declaration of the VGA system (input and output).
         U1 - IN_CLOCK_OUT: Take a 12 MHz from the Topmodule and generate a 25 MHz clock as output.
-        U2 - counter: this counter use 25 MHz as input clock and his output it will be used for the synchronization time of            VGA_sync and Topmodule modules.  
+        U2 - counter: this counter use 25 MHz as input clock and his output it will be used for the synchronization time of VGA_sync and Topmodule modules.  
         U3 - VGA_sync: this module responsible of the vertical and horizontal synchronization and for the video output.
 
 
