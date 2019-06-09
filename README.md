@@ -5,17 +5,17 @@ The main idea from this project, is for helping beginner peoples in the FPGA wor
     To learn how to make your first game on FPGA
 
 So let’s we start,
- First we need to buy the ELBERT V2 board:
- *https://numato.com/product/elbert-v2-spartan-3a-fpga-development-board*
+ First we need to buy the ELBERT V2 board:                                                                               
+ https://numato.com/product/elbert-v2-spartan-3a-fpga-development-board
 
- Second we need to install on our PC the USB driver for the FPGA:
- *https://productdata.numato.com/assets/downloads/common/numato_lab_usb_cdc_driver.zip*
+ Second we need to install on our PC the USB driver for the FPGA:                                                           
+ https://productdata.numato.com/assets/downloads/common/numato_lab_usb_cdc_driver.zip
 
- Third we need to install the Xilinx program which in my case (Xilinx\14.7 ISE design Suite): 
- *https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_ISE_S6_Win10_14.7_ISE_VMs_0206_1.zip*
+ Third we need to install the Xilinx program which in my case (Xilinx\14.7 ISE design Suite):                                         
+ https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_ISE_S6_Win10_14.7_ISE_VMs_0206_1.zip
 
  Then, we need to install the ElbertV2Config.exe:
- *https://productdata.numato.com/assets/downloads/fpga/elbertv2/ElbertV2Config.exe*
+ https://productdata.numato.com/assets/downloads/fpga/elbertv2/ElbertV2Config.exe                                                         
 
  Now we are ready but before we start, I recommended you to get more information about the Elbert V2 board and about the ISE  design suite to initialize your first project directory. 
  *https://docs.numato.com/doc/elbert-v2-spartan-3a-fpga-development-board/*
