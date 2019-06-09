@@ -2,8 +2,6 @@
 
 The main idea from this project, is for helping beginner peoples in the FPGA world to:
 
-    Make a good understanding of the VGA functionality in FPGA of the ELBERT V2 Spartan 3A FPGA ,
-    Create a very easy VHDL code for VGA using Xilinx tools,
     To learn how to make your first game on FPGA
 
 So let’s we start,
@@ -37,7 +35,7 @@ Code have for initial module:
 
         Topmodule: responsible of the declaration of the VGA system (input and output).
         U1 - IN_CLOCK_OUT: Take a 12 MHz from the Topmodule and generate a 25 MHz clock as output.
-        U2 - counter: this counter use 25 MHz as input clock and his output it will be used for the synchronization time of VGA_sync and Topmodule modules.  
+        U2 - counter: this counter use 25 MHz as input clock and his output it will be used for the synchronization time of            VGA_sync and Topmodule modules.  
         U3 - VGA_sync: this module responsible of the vertical and horizontal synchronization and for the video output.
 
 
