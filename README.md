@@ -14,10 +14,10 @@ So let’s we start,
  Third we need to install the Xilinx program which in my case (Xilinx\14.7 ISE design Suite):                                         
  https://www.xilinx.com/member/forms/download/xef.html?filename=Xilinx_ISE_S6_Win10_14.7_ISE_VMs_0206_1.zip
 
- Then, we need to install the ElbertV2Config.exe:
+ Then, we need to install the ElbertV2Config.exe:                                                           
  https://productdata.numato.com/assets/downloads/fpga/elbertv2/ElbertV2Config.exe                                                         
 
- Now we are ready but before we start, I recommended you to get more information about the Elbert V2 board and about the ISE  design suite to initialize your first project directory. 
+ Now we are ready but before we start, I recommended you to get more information about the Elbert V2 board and about the ISE  design suite to initialize your first project directory.                                                                    
  *https://docs.numato.com/doc/elbert-v2-spartan-3a-fpga-development-board/*
 
 
