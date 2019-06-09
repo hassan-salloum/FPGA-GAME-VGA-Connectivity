@@ -18,7 +18,7 @@ The main idea from this project, is for helping beginner peoples in the FPGA wor
  *https://docs.numato.com/doc/elbert-v2-spartan-3a-fpga-development-board/*
 
 
-**Understand the VGA:**
+**A- VGA functionality:**
 
 ![First image it will show you how VGA controller work.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/VGACONTROLLER.png)
 
@@ -26,7 +26,7 @@ The main idea from this project, is for helping beginner peoples in the FPGA wor
 VGA_sync module.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documentation/HVSYNC.png)
 
 
-**VGA VHDL code:**
+**B- The main code:**
 
 Code have for initial module:
 
