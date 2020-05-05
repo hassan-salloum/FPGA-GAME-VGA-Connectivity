@@ -28,7 +28,7 @@ VGA_sync module.](https://github.com/hassan-salloum/FPGA_VGA/blob/master/Documen
 
 **B- The main code:**
 
-Code have for initial module:
+Code have 4 initial module:
 
         Topmodule: responsible of the declaration of the VGA system (input and output).
         U1 - IN_CLOCK_OUT: Take a 12 MHz from the Topmodule and generate a 25 MHz clock as output.
