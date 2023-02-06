@@ -1,6 +1,6 @@
 # FPGA Spartan 3A (Shooting Game)
 
-The main idea from this project, is for helping beginner peoples in the FPGA world to learn how to make their first FPGA game. So let’s we start:
+This project will guide step by step to build your first FPGA game:
 
  - First this is the FPGA board i used:                                                                               
  https://numato.com/product/elbert-v2-spartan-3a-fpga-development-board
